@@ -2,8 +2,11 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "lib": ["ESNext", "dom"],
-    "moduleResolution": "Bundler",
+    "lib": [
+      "ESNext",
+      "dom"
+    ],
+    "moduleResolution": "node",
     "outDir": "./dist",
     "rootDir": ".",
     "strict": false,
@@ -15,7 +18,7 @@
     "emitDeclarationOnly": true,
     "resolveJsonModule": true,
     "noImplicitAny": false,
-    "allowJs": true,
+    "allowJs": false,
     "checkJs": false,
     "noEmitOnError": false,
     "moduleDetection": "force",
